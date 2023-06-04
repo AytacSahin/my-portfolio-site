@@ -1,26 +1,10 @@
 .App {
   background-color: #F5F5F5;
-  margin-left: 10%;
-  margin-right: 12%
-
 }
 
 body {
-  background-color: rgb(229, 223, 234);
+  background-color: #F5F5F5;
 }
-
-
-/* UserPreferences*/
-
-.user_preferences {
-  text-align: right;
-}
-
-.user_preferences span{
-  margin-left: 20px;
-}
-
-/* NavLinkBar*/
 
 .navlink {
   display: flex;

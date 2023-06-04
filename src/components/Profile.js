@@ -12,21 +12,29 @@ const Profile = () => {
 
         <div>
           <h3>Profile</h3>
-          <div>
-            <h4>Birth Date</h4>
-            <h4>City</h4>
-            <h4>Education</h4>
-            <h4>Role</h4>
+          <div className='flex'>
+            <div >
+              <h4>Birth Date</h4>
+              <h4>City</h4>
+              <h4>Education</h4>
+              <h4>Role</h4>
+            </div>
+            <div className='pl-5'>
+              <h4>03.07.1991</h4>
+              <h4>Istanbul</h4>
+              <h4>Yildiz Technical University</h4>
+              <h4>Frontend Developer</h4>
+            </div>
           </div>
         </div>
 
-        <h3>About Me</h3>
-
+        <div className='pl-5'>
+          <h3>About Me</h3>
+          <p>Hi, I'm Aytac Sahin. I'm a full stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with graeat user experiences. Let's shake hands with me.</p>
+          <p>Hi, I'm Aytac Sahin. I'm a full stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with graeat user experiences. Let's shake hands with me.</p>
+        </div>
 
       </div>
-
-
-
     </div>
   )
 }

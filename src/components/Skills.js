@@ -1,7 +1,7 @@
 import React from 'react'
 import { AbilitiesData } from '../sources/data/AbilitiesData'
 
-const Abilities = () => {
+const Skills = () => {
 
     const data = AbilitiesData()
 
@@ -25,4 +25,4 @@ const Abilities = () => {
     )
 }
 
-export default Abilities
+export default Skills

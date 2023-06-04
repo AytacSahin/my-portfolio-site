@@ -4,27 +4,31 @@ import { ProjectsData } from '../sources/data/ProjectsData'
 const Projects = () => {
 
     return (
-        <div className='text-left'>
+        <div className='text-left w-full'>
             <div>
                 <h2>Projects</h2>
-                <div className='flex justify-between flex-wrap'>
-
+                <div className='flex flex-row flex-wrap'>
                     {ProjectsData().map((item, index) => (
-                        <div key={index} className='abilities_card'>
-                            <div className='flex justify-start flex-col flex-wrap w-96'>
-                                <img className='rounded-lg' src={item.img} alt="project_picture"></img>
+                        <div key={index} className='w-96 mr-auto justify-between'>
+                            <div className='mb-4'>
+                                <img src={item.img} alt="project_picture"></img>
                                 <h3>{item.title}</h3>
                                 <h4>{item.description}</h4>
                             </div>
+
+                            <div className='mb-4'>
+                                {item.methodsofproject.map((item, index) => (
+                                    <span key={index} className='border-2 border-solid border-black rounded-l p-2 mr-4'>
+                                        {item}
+                                    </span>
+                                ))}
+                            </div>
+
                         </div>
                     ))}
                 </div>
-
-
             </div>
-
         </div>
-
     )
 }
 

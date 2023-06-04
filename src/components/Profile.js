@@ -31,6 +31,7 @@ const Profile = () => {
         <div className='pl-5'>
           <h3>About Me</h3>
           <p>Hi, I'm Aytac Sahin. I'm a full stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with graeat user experiences. Let's shake hands with me.</p>
+          <br />
           <p>Hi, I'm Aytac Sahin. I'm a full stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with graeat user experiences. Let's shake hands with me.</p>
         </div>
 

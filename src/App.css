@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   background-color: #F5F5F5;
   margin-left: 10%;
   margin-right: 12%
@@ -31,6 +30,19 @@ body {
 .navlink_rigth {
   display: flex;
   gap: 0 2rem;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  color: blue;
 }
 
 

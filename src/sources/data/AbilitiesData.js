@@ -3,17 +3,17 @@ export const AbilitiesData = () => {
         {
             id: 0,
             title: "Java Script",
-            description: "İleri düzey JavaScript ile hayat çok daha güzel!"
+            description: "Life is so much better with advanced JavaScript!"
         },
         {
             id: 1,
             title: "React.JS",
-            description: "İleri düzey React.JS ile hayat çok daha güzel!"
+            description: "Life is so much better with advanced React.JS!"
         },
         {
             id: 2,
             title: "Node.JS",
-            description: "İleri düzey Node.JS ile hayat çok daha güzel!"
+            description: "Life is so much better with advanced Node.JS!"
         }
     ]
 }

@@ -29,7 +29,7 @@ const Header = () => {
 
       </div>
 
-      <div className='drop-shadow-2xl dark:drop-shadow-none m-auto'>
+      <div className='drop-shadow-2xl dark:drop-shadow-none m-auto mr-0'>
         <img className='border-[#252128] border-8 rounded-3xl dark:border-[#AEBCCF]' src={headerImage} alt="profile_picture"></img>
       </div>
 

@@ -16,11 +16,11 @@ function App() {
         <NavLinkBar />
         <Header />
         <Skills />
-        <hr />
+        <hr className='h-0.5 bg-[#BAB2E7]'/>
         <Profile />
-        <hr />
+        <hr className='h-0.5 bg-[#BAB2E7]'/>
         <Projects />
-        <hr />
+        <hr className='h-0.5 bg-[#BAB2E7]'/>
         <Footer />
       </div>
     </div>

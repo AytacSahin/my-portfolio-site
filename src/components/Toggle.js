@@ -3,31 +3,28 @@ import DayNightToggle from 'react-day-and-night-toggle'
 
 const UserPreferences = () => {
 
-  const [theme, setTheme] = useState(
-    localStorage.getItem("theme" === "dark" ? "dark" : "light")
-  )
-
-  useEffect(() => {
-    if (localStorage.getItem("theme") === 'dark') {
-      document.documentElement.classList.remove('light')
-      document.documentElement.classList.add('dark');
-      localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.add('light');
-      document.documentElement.classList.remove('dark')
-      localStorage.setItem("theme", "light");
+  const [theme, setTheme] = useState(() => {
+    if (localStorage.getItem("theme") === "light") {
+      return "light";
+    } else if (localStorage.getItem("theme") === "dark") {
+      return "dark";
     }
-  }, [theme])
+  });
 
   const changeTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    setTheme(theme === "dark" ? "light" : "dark");
   }
 
   useEffect(() => {
     if (theme === "dark") {
-      document.documentElement.classList.add("dark")
+      document.documentElement.classList.remove('light');
+      document.documentElement.classList.add('dark');
+      localStorage.setItem("theme", "dark");
+
     } else {
-      document.documentElement.classList.remove("dark")
+      document.documentElement.classList.remove('dark');
+      document.documentElement.classList.add('light');
+      localStorage.setItem("theme", "light");
     }
   }, [theme])
 
@@ -36,8 +33,12 @@ const UserPreferences = () => {
 
       <div className='flex justify-end'>
 
-        <DayNightToggle className='' onChange={changeTheme} checked={theme === "light"} size={"18"}></DayNightToggle>
-        <span>DARK MODE</span>
+        <DayNightToggle
+          onChange={() => changeTheme()}
+          checked={theme === "dark"}
+          size={"18"}>
+        </DayNightToggle>
+        <span>{theme === "light" ? "DARK MODE" : "LIGHT MODE"}</span>
         <span>| TÜRKÇE'YE GEÇ</span>
 
       </div>

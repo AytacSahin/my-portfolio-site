@@ -6,9 +6,8 @@
 }
 
 body {
-  /* background-color: #F5F5F5; */
-  background-color: black;
-
+  background-color: #F5F5F5;
+  /* background-color: black; */
 }
 
 .navlink {
@@ -20,7 +19,6 @@ body {
   display: flex;
   gap: 0 2rem;
 }
-
 
 /* Yazı Boyutları:*/
 

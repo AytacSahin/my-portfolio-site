@@ -4,8 +4,8 @@ const NavLinkBar = () => {
   return (
     <div className='navlink'>
 
-      <div className='navlink_left'>
-        <h3 className='text-cyan-200 hover:text-red-600'>A</h3>
+      <div>
+        <h2 className='text-[#7B61FF] rounded-full bg-[#EEEBFF] w-16 h-16 text-center rotate-45'>A</h2>
       </div>
 
       <div className='navlink_rigth'>

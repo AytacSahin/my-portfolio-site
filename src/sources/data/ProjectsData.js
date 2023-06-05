@@ -1,9 +1,9 @@
 import headerImage_1 from '../images/projects/headerImage_1.png'
 import headerImage_2 from '../images/projects/headerImage_2.png'
 import headerImage_3 from '../images/projects/headerImage_3.png'
-import headerImage_4 from '../images/projects/headerImage_3.png'
-import headerImage_5 from '../images/projects/headerImage_3.png'
-import headerImage_6 from '../images/projects/headerImage_3.png'
+import headerImage_4 from '../images/projects/headerImage_4.png'
+import headerImage_5 from '../images/projects/headerImage_5.png'
+import headerImage_6 from '../images/projects/headerImage_6.png'
 
 export const ProjectsData = () => {
     return [

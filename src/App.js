@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="w-9/9 mx-32 bg-[#F5F5F5]">
+    <div className="m-auto w-9/12 bg-[#F5F5F5]">
       <Toggle />
       <hr />
       <NavLinkBar />

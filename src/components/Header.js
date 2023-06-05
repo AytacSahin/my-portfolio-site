@@ -4,7 +4,7 @@ import HeaderButtons from '../sources/buttons/HeaderButtons'
 
 const Header = () => {
   return (
-    <div className='flex justify-between'>
+    <div className='mt-20 flex justify-between'>
 
       <div className='w-[70%] flex flex-col justify-between items-start'>
 

@@ -3,6 +3,8 @@ import DayNightToggle from 'react-day-and-night-toggle'
 
 const UserPreferences = () => {
 
+  const [crrLanguage, setCrrLanguage] = useState("TÜRKÇE")
+
   const [theme, setTheme] = useState(() => {
     if (localStorage.getItem("theme") === "light") {
       return "light";
@@ -28,22 +30,29 @@ const UserPreferences = () => {
     }
   }, [theme])
 
+  const languageHandler = () => {
+    crrLanguage === "TÜRKÇE" ? setCrrLanguage("İNGİLİZCE") : setCrrLanguage("TÜRKÇE")
+  }
+
   return (
     <div className='pt-6 pb-6 text-right'>
 
-      <div className='flex justify-end'>
+      <div className='flex justify-end items-center'>
 
         <DayNightToggle
           onChange={() => changeTheme()}
           checked={theme === "dark"}
-          size={"18"}>
+          size={"16"}>
         </DayNightToggle>
-        <span>{theme === "light" ? "DARK MODE" : "LIGHT MODE"}</span>
-        <span>| TÜRKÇE'YE GEÇ</span>
+
+        <div className='flex pl-3 '>
+          <h5 className='pr-4 dark:text-[#D9D9D9]'>{theme === "light" ? "DARK MODE" : "LIGHT MODE"}</h5>
+          <h5>|</h5>
+          <h5 className='pl-4 dark:text-[#777777]'><span className=' text-[#4731D3] dark:text-[#BAB2E7]' onClick={() => { languageHandler() }}>{crrLanguage}</span>'YE GEÇ</h5>
+        </div>
 
       </div>
-
-    </div>
+    </div >
   )
 }
 

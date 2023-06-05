@@ -15,7 +15,6 @@ function App() {
         <Toggle />
         <NavLinkBar />
         <Header />
-        <hr />
         <Skills />
         <hr />
         <Profile />

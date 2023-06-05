@@ -14,16 +14,6 @@ body {
 
 /* Yazı Boyutları:*/
 
-h1 {
-  font-size: 4.5rem;
-  line-height: 4.5rem;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 30px;
-}
-
 h3 {
   font-size: 20px;
   color: blue;

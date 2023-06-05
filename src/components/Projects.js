@@ -7,10 +7,10 @@ const Projects = () => {
         <div className='text-left w-full'>
             <div>
                 <h2>Projects</h2>
-                <div className='flex flex-row flex-wrap justify-between'>
+                <div className='flex flex-wrap'>
                     {ProjectsData().map((item, index) => (
                         <div key={index} className='w-[350px] bg-[#F5F5F5]'>
-                            <div className='mb-4'>
+                            <div className='mt-6 mb-6'>
                                 <img src={item.img} alt="project_picture"></img>
                                 <h3>{item.title}</h3>
                                 <h4>{item.description}</h4>

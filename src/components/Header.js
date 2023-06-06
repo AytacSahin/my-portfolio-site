@@ -3,6 +3,7 @@ import headerImage from '../sources/images/header/headerImage.png'
 import HeaderButtons from '../sources/buttons/HeaderButtons'
 
 const Header = () => {
+  
   return (
     <div className='mt-20 mb-20 flex justify-between '>
 

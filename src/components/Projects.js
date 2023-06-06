@@ -1,5 +1,5 @@
 import React from 'react'
-import { ProjectsData } from '../sources/data/ProjectsData'
+import { projectsData } from '../sources/data/projectsData'
 
 const Projects = () => {
 
@@ -8,7 +8,7 @@ const Projects = () => {
             <div>
                 <h2 className='text-[#1F2937] text-5xl leading-none font-semibold dark:text-[#AEBCCF] mb-8'>Projects</h2>
                 <div className='flex flex-wrap'>
-                    {ProjectsData().map((item, index) => (
+                    {projectsData.map((item, index) => (
 
                         <div key={index} className='w-[20rem] mx-auto'>
 

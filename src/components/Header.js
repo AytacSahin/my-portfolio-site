@@ -1,9 +1,12 @@
 import React from 'react'
 import headerImage from '../sources/images/header/headerImage.png'
 import HeaderButtons from '../sources/buttons/HeaderButtons'
+import { useTranslation } from 'react-i18next'
 
 const Header = () => {
-  
+
+  const { t, i18n } = useTranslation()
+
   return (
     <div className='mt-20 mb-20 flex justify-between '>
 
@@ -17,7 +20,7 @@ const Header = () => {
             </div>
           </div>
           <div>
-            <h4 className='text-[#4338CA] text-xl leading-7 font-medium pl-4 dark:text-[#B7AAFF]'>Aytac Sahin</h4>
+            <h4 className='text-[#4338CA] text-xl leading-7 font-medium pl-4 dark:text-[#B7AAFF]'>{t('aytac_sahin')}</h4>
           </div>
         </div>
 

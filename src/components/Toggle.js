@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import DayNightToggle from 'react-day-and-night-toggle'
+import { useTranslation } from 'react-i18next'
 
 const UserPreferences = () => {
-
-  const [crrLanguage, setCrrLanguage] = useState("TÜRKÇE")
+  const { t, i18n } = useTranslation()
+  // console.log(i18n.language)
 
   const [theme, setTheme] = useState(() => {
     if (localStorage.getItem("theme") === "light") {
@@ -30,25 +31,37 @@ const UserPreferences = () => {
     }
   }, [theme])
 
-  const languageHandler = () => {
-    crrLanguage === "TÜRKÇE" ? setCrrLanguage("İNGİLİZCE") : setCrrLanguage("TÜRKÇE")
+  const languageHandler = (language) => {
+    i18n.changeLanguage(language);
   }
+
+
 
   return (
     <div className='pt-6 pb-6 text-right'>
-
       <div className='flex justify-end items-center'>
 
         <DayNightToggle
-          onChange={() => changeTheme()}
           checked={theme === "dark"}
-          size={"16"}>
-        </DayNightToggle>
-
+          size={"16"}
+          // startInactive="true"
+          // animationInactive="false"
+          onChange={() => changeTheme()}/>
+        
         <div className='flex pl-3 '>
-          <h5 className='pr-4 dark:text-[#D9D9D9]'>{theme === "light" ? "DARK MODE" : "LIGHT MODE"}</h5>
+          <h5 className='pr-4 dark:text-[#D9D9D9]'>{theme === "light" ? t('dark_mode') : t('light_mode')}</h5>
           <h5>|</h5>
-          <h5 className='pl-4 dark:text-[#777777]'><span className=' text-[#4731D3] dark:text-[#BAB2E7]' onClick={() => { languageHandler() }}>{crrLanguage}</span>'YE GEÇ</h5>
+
+          {i18n.language === "en" ?
+            <h5 className='cursor-pointer text-[#4731D3] dark:text-[#BAB2E7]' onClick={() => { languageHandler("tr") }}>
+              <span className='pl-4 text-[#777777] dark:text-[#777777]' >
+                SWITCH
+              </span>{" "}ENGLISH
+            </h5>
+            :
+            <h5 className='cursor-pointer pl-4 dark:text-[#777777]'><span className=' text-[#4731D3] dark:text-[#BAB2E7]' onClick={() => { languageHandler("en") }}>TÜRKÇE</span>'YE GEÇ</h5>
+          }
+
         </div>
 
       </div>

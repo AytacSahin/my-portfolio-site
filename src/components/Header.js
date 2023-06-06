@@ -24,8 +24,8 @@ const Header = () => {
           </div>
         </div>
 
-        <h1 className='text-[#1F2937] text-7xl leading-none font-bold dark:text-[#AEBCCF] mb-6'>Creative thinker Minimalism lover</h1>
-        <p className='text-[#6B7280] text-lg leading-7 font-normal dark:text-[#FFFFFF] mb-6'>Hi, I'm Aytac Sahin. I'm a full stack developer. If you are looking for a Developer who to craft solid and scalable frontend products with graeat user experiences. Let's shake hands with me.</p>
+        <h1 className='text-[#1F2937] text-7xl leading-none font-bold dark:text-[#AEBCCF] mb-6'>{t('promotional_text')}</h1>
+        <p className='text-[#6B7280] text-lg leading-7 font-normal dark:text-[#FFFFFF] mb-6'>{t('about_me')}</p>
 
         <div>
           <HeaderButtons />

@@ -5,7 +5,7 @@ import headerImage_4 from '../images/projects/headerImage_4.png'
 import headerImage_5 from '../images/projects/headerImage_5.png'
 import headerImage_6 from '../images/projects/headerImage_6.png'
 
-export const projectsData = [
+export const projectsDataEn = [
     {
         id: 0,
         img: headerImage_1,
@@ -61,7 +61,6 @@ export const projectsData = [
         deployLink: "https://shopping-cart-git-main-aytacsahin.vercel.app/"
     },
 ]
-
 
 export const projectsDataTr = [
     {

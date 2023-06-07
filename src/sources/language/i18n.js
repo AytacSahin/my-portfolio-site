@@ -59,7 +59,7 @@ const resources = {
 i18next
     .use(initReactI18next)
     .init({
-        lng: 'tr',
+        lng: localStorage.getItem("language") ? localStorage.getItem("language") === "tr" ? "en" : "tr" : "en",
         resources: resources
     })
 

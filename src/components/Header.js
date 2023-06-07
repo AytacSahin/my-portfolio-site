@@ -8,7 +8,7 @@ const Header = () => {
   const { t, i18n } = useTranslation()
 
   return (
-    <div className='mt-20 mb-20 flex flex-row justify-between lg:flex-row md:flex-col sm:flex-col max-[640px]:flex-col'>
+    <div className='mt-20 mb-20 flex flex-row justify-between lg:flex-row  md:flex-col-reverse sm:flex-col-reverse  max-[640px]:flex-col-reverse '>
 
       <div className='mr-8 flex flex-col justify-between items-start lg:mr-8 lg:text-left md:text-center md:mx-auto md:mb-5 sm:w-[90%] sm:text-center sm:mx-auto sm:mb-5 max-[640px]:text-center max-[640px]:mx-auto max-[640px]:mb-5 max-[640px]:w-[90%]'>
 

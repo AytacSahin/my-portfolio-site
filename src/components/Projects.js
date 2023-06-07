@@ -16,7 +16,7 @@ const Projects = () => {
 
                         .map((item, index) => (
 
-                            <div key={index} className='w-[20rem] h-[36rem] mx-auto flex flex-col justify-between mb-12'>
+                            <div key={index} className='w-[20rem] h-[36rem] mx-auto flex flex-col justify-between mb-12 sm:w-[20rem] sm:h-[36rem] max-[640px]:w-[16rem] max-[640px]:h-[40rem]'>
 
                                 <div className='mb-8'>
                                     <img className='w-[20rem] h-[14rem] object-fill' src={item.img} alt="project_picture"></img>
@@ -25,7 +25,7 @@ const Projects = () => {
                                 </div>
 
                                 <div>
-                                    <div className='mb-4 flex'>
+                                    <div className='mb-4 flex sm:flex-row max-[640px]:flex-col max-[640px]:gap-1'>
                                         {item.methodsofproject.map((item, index) => (
                                             <span key={index} className='text-[#3730A3] border-2 border-solid rounded-md border-[#3730A3] p-2 mr-4 dark:text-[#8F88FF] dark:border-[#8F88FF dark:bg-[#383838]'>
                                                 {item}

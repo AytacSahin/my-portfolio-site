@@ -36,12 +36,13 @@ const UserPreferences = () => {
   }
 
   return (
-    <div className='pt-6 pb-6 text-right'>
+    <div className='pt-6 pb-6 text-right text-[#777777] text-[15px] leading-[18.15px] font-bold tracking-[0.1rem] sm:text-[15px] max-[640px]:text-[9px] max-[320px]:text-[9px]'>
       <div className='flex justify-end items-center'>
 
         <DayNightToggle
           checked={theme === "dark"}
-          size={"16"}
+          size={16}
+          // Todo: make an animation while switch dark mode toggle (7.6.23)
           // startInactive="true"
           // animationInactive="false"
           onChange={() => changeTheme()}/>

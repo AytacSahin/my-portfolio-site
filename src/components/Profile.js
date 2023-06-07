@@ -11,10 +11,10 @@ const Profile = () => {
       <div >
         <h2 className='text-[#1F2937] text-5xl leading-none font-semibold dark:text-[#AEBCCF]'>{t("profile")}</h2>
       </div>
-      <div className='flex mb-10 mr-16'>
+      <div className='flex flex-row mb-10 mr-16 lg:flex-row md:flex-col sm:flex-col max-[640px]:flex-col'>
         <div>
           <h3 className='text-[#4338CA] text-3xl leading-7 font-medium mt-8 dark:text-[#B7AAFF] mb-6'>{t("profile")}</h3>
-          <div className='flex flex-col w-80'>
+          <div className='flex flex-col w-80 lg:w-80 md:w-auto sm:w-auto max-[640px]:w-auto'>
             {(i18n.language === "tr" ? profileElementsEn : profileElementsTr)
               .map((item, index) => (
                 <div key={index}>
@@ -26,7 +26,7 @@ const Profile = () => {
               ))}
           </div>
         </div>
-        <div className='pl-5'>
+        <div className='pl-5 lg:pl-5 md:pl-0 sm:pl-0 max-[640px]:pl-0'>
           <h3 className='text-[#4338CA] text-3xl leading-7 font-medium mt-8 dark:text-[#B7AAFF] mb-6'>{t("about_header")}</h3>
           <p className='text-[#6B7280] dark:text-[#FFFFFF]'>{t("about_text_one")}</p>
           <br />

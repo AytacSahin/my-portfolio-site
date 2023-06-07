@@ -11,8 +11,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <div className='bg-[#F5F5F5] dark:bg-[#252128]'>
-        <div className="m-auto w-9/12 2xl:bg-cyan-400 2xl:w-[70rem]">
+      <div className='bg-[#F5F5F5] dark:bg-[#252128] 2xl:bg-blue-500 xl:bg-green-600 lg:bg-orange-600 md:bg-yellow-500 sm:bg-fuchsia-500 max-[640px]:bg-rose-500 max-[320px]:bg-blue-500'>
+        <div className="flex flex-col justify-center mx-auto w-[80%] 2xl:w-[76.8rem]">
           <Toggle />
           <NavLinkBar />
           <Header />
@@ -26,7 +26,7 @@ function App() {
         </div>
       </div >
       <div className='bg-[#F9F9F9] dark:bg-[#141414]'>
-        <div className="mx-auto w-9/12">
+        <div className="mx-auto w-[80%] 2xl:w-[76.8rem]">
           <Footer />
         </div>
       </div>

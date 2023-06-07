@@ -29,15 +29,9 @@ const NavLinkBar = () => {
 
         <a href="mailto:haytacsahin@gmail.com">
           <button href="mailto:haytacsahin@gmail.com" className='text-lg leading-7 font-medium w-36 h-12 border-2 border-[#F5F5F5] rounded-md text-[#6B7280] hover:border-[#3730A3] hover:text-[#3730A3] dark:border-[#252128] dark:hover:bg-[#FFFFFF] dark:hover:border-[#3730A3]'>
-          {t('hire_me')}
+          {t('contact')}
           </button>
         </a>
-
-        {/* {navLinkBarButtons.map((item, index) => (
-          <button key={index} type="button" className='text-lg leading-7 font-medium w-36 h-12 border-2 border-[#F5F5F5] rounded-md text-[#6B7280] hover:border-[#3730A3] hover:text-[#3730A3] dark:border-[#252128] dark:hover:bg-[#FFFFFF] dark:hover:border-[#3730A3]'>
-            {item}
-          </button>
-        ))} */}
 
       </div>
 

@@ -9,7 +9,7 @@ const Skills = () => {
     return (
         <div className='text-left'>
             <div>
-                <h2 className='text-[#1F2937] text-5xl leading-none font-semibold dark:text-[#AEBCCF]'>Skills</h2>
+                <h2 className='text-[#1F2937] text-5xl leading-none font-semibold dark:text-[#AEBCCF]'>{t("skills")}</h2>
                 <div className='flex justify-between'>
 
                     { (i18n.language === "tr" ? skillsDataEN : skillsDataTR)

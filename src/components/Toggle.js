@@ -35,8 +35,6 @@ const UserPreferences = () => {
     i18n.changeLanguage(language);
   }
 
-
-
   return (
     <div className='pt-6 pb-6 text-right'>
       <div className='flex justify-end items-center'>
@@ -61,9 +59,7 @@ const UserPreferences = () => {
             :
             <h5 className='cursor-pointer pl-4 dark:text-[#777777]'><span className=' text-[#4731D3] dark:text-[#BAB2E7]' onClick={() => { languageHandler("en") }}>TÜRKÇE</span>'YE GEÇ</h5>
           }
-
         </div>
-
       </div>
     </div >
   )

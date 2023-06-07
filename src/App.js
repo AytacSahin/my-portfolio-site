@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <div className='bg-[#F5F5F5] dark:bg-[#252128]'>
-        <div className="m-auto w-9/12 ">
+        <div className="m-auto w-9/12 2xl:bg-cyan-400 2xl:w-[70rem]">
           <Toggle />
           <NavLinkBar />
           <Header />

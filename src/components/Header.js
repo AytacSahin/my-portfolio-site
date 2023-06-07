@@ -8,7 +8,7 @@ const Header = () => {
   const { t, i18n } = useTranslation()
 
   return (
-    <div className='mt-20 mb-20 flex justify-between '>
+    <div className='mt-20 mb-20 flex justify-between 2xl:bg-blue-500 xl:bg-green-600 lg:bg-orange-600 md:bg-yellow-500 sm:bg-fuchsia-500'>
 
       <div className='w-[60%] pr-20 flex flex-col justify-between items-start'>
 
@@ -24,7 +24,7 @@ const Header = () => {
           </div>
         </div>
 
-        <h1 className='text-[#1F2937] text-7xl leading-none font-bold dark:text-[#AEBCCF] mb-6'>{t('promotional_text')}</h1>
+        <h1 className='text-[#1F2937] text-7xl leading-none font-bold dark:text-[#AEBCCF] mb-6 lg:text-5xl'>{t('promotional_text')}</h1>
         <p className='text-[#6B7280] text-lg leading-7 font-normal dark:text-[#FFFFFF] mb-6'>{t('about_me')}</p>
 
         <div>

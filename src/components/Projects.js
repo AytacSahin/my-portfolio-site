@@ -10,7 +10,7 @@ const Projects = () => {
     return (
         <div className='mt-10 pb-20'>
             <div>
-                <h2 className='text-[#1F2937] text-5xl leading-none font-semibold dark:text-[#AEBCCF] mb-10'>Projects</h2>
+                <h2 className='text-[#1F2937] text-5xl leading-none font-semibold dark:text-[#AEBCCF] mb-10'>{t("projects")}</h2>
                 <div className='flex flex-wrap'>
                     {(i18n.language === "tr" ? projectsDataEn : projectsDataTr)
 
@@ -35,7 +35,7 @@ const Projects = () => {
 
                                     <div className='flex justify-between mb-4 underline text-[#3730A3] dark:text-[#E1E1FF]'>
                                         <a href={item.githubLink}>Github</a>
-                                        <a href={item.deployLink}>View Site</a>
+                                        <a href={item.deployLink}>{t("view_site")}</a>
                                     </div>
                                 </div>
 

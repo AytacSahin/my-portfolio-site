@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 
 const HeaderButtons = () => {
 
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <div className='flex flex-row lg:flex-row md:flex-row sm:flex-col max-[640px]:flex-col '>

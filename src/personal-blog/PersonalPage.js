@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next'
 import { personalPageDataEn, personalPageDataTr } from '../sources/data/personalPageData'
 import { useForm } from 'react-hook-form'
 import PersonalPageHeader from './PersonalPageHeader'
-import { nanoid } from 'nanoid'
+import { toast } from 'react-toastify'
+import axios from 'axios'
 
 const PersonalPage = () => {
 
@@ -13,13 +14,23 @@ const PersonalPage = () => {
         register,
         handleSubmit,
         formState: { errors },
+        reset,
     } = useForm({ mode: "onChange" });
 
-    function onSubmit(formData) {
-        const yeniNot = {
-            id: nanoid(5),
-
-        };
+    const onSubmit = (formData) => {
+        // console.log(formData);
+        toast.info(t("toast_info_message"), { position: toast.POSITION.BOTTOM_RIGHT });
+        axios
+            .post("https://reqres.in/api/workintech", formData)
+            .then((res) => {
+                console.log(res.data);
+                    toast.success("Notunuz bize ulaştı !", { position: toast.POSITION.TOP_RIGHT });
+                    reset()
+            })
+            .catch((error) => {
+                toast.warning("Bir Hata Oluştu, Daha Sonra Tekrar Deneyin !", { position: toast.POSITION.BOTTOM_RIGHT });
+                    console.log(error)
+            });
     }
 
     return (
@@ -42,7 +53,7 @@ const PersonalPage = () => {
 
                 <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col justify-between items-center  mt-20 h-[20rem] mb-40"            >
                     <div>
-                        <p className="text-2xl text-center">
+                        <p className="text-2xl text-left text-[#4338CA] dark:text-[#B7AAFF]">
                             {t("form_name")}
                         </p>
                         <input
@@ -54,7 +65,7 @@ const PersonalPage = () => {
                         )}
                     </div>
                     <div>
-                        <p className="text-2xl text-center">
+                        <p className="text-2xl text-left text-[#4338CA] dark:text-[#B7AAFF]">
                             {t("form_mail")}
                         </p>
                         <input
@@ -66,7 +77,7 @@ const PersonalPage = () => {
                         )}
                     </div>
                     <div>
-                        <p className="text-2xl text-center">
+                        <p className="text-2xl text-left text-[#4338CA] dark:text-[#B7AAFF]">
                             {t("form_note")}
                         </p>
                         <textarea
@@ -79,7 +90,7 @@ const PersonalPage = () => {
 
                     </div>
 
-                    <h1 className="text-2xl mt-5 mb-10">
+                    <h1 className="text-2xl mt-5 mb-10 text-[#1F2937] dark:text-[#AEBCCF]">
                         {t("send_me")}
                     </h1>
 

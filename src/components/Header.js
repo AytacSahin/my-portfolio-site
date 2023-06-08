@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 
 const Header = () => {
 
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <div className='mt-20 mb-20 flex flex-row justify-between lg:flex-row  md:flex-col-reverse sm:flex-col-reverse  max-[640px]:flex-col-reverse '>

@@ -1,10 +1,11 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { NavLink } from 'react-router-dom'
+import { Link } from 'react-scroll'
 
 const Footer = () => {
 
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <div>
@@ -20,9 +21,11 @@ const Footer = () => {
         </div>
         <div className='text-[18px] leading-[150%] font-medium md:mt-0 sm:mt-5 max-[640px]:mt-5 max-[320px]:mt-5 sm:text-[18px] max-[640px]:text-[14px] max-[320px]:text-[10px]'>
 
-          <NavLink to="/personal-blog"         >
-            <a className='ml-5 text-[#0A0A14] dark:text-[#E1E1FF]' href="https://www.google.com/maps">{t("personal_blog")}</a>
-          </NavLink>
+          <Link to="top" smooth={true} duration={700}>
+            <NavLink to="/personal-blog"         >
+              <a className='ml-5 text-[#0A0A14] dark:text-[#E1E1FF]' href="https://www.google.com/maps">{t("personal_blog")}</a>
+            </NavLink>
+          </Link>
 
           <a className='ml-5 text-[#00AB6B] dark:text-[#17D18B]' href="https://github.com/AytacSahin">Github</a>
           <a className='ml-5 text-[#0077B5] dark:text-[#0BA6F6]' href="https://www.linkedin.com/in/ayta%C3%A7-%C5%9Fahin-686877146/">Linkedin</a>

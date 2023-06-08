@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 
 const NavLinkBar = () => {
 
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
 
     return (
     <div className='flex justify-between items-center md:flex-row sm:flex-col sm:item-center max-[640px]:flex-col max-[640px]:items-center'>

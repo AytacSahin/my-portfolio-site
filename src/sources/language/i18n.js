@@ -21,7 +21,6 @@ const resources = {
             about_text_one: "Hello, I'm Aytac. I was born in Kirklareli. I have been living in Istanbul for a long time. I graduated from Yildiz Technical University, Department of Civil Engineering. In my long professional career, I took part in many roles such as project management, project coordinator and director.",
             about_text_two: "I am actively studying web software. As part of my studies, I received a 6-month 'Full Stack Web Developer' training at the Workintech educational institution. This enriching experience has fueled my passion for a professional career in software. I aim not to lose my passion for learning throughout my life.",
             // -------- Profile.js -------- //
-            projects: 'Projects',
             view_site: 'View Site',
             // -------- Footer.js -------- //
             footer_descripton: 'Lets work together on your next product.',
@@ -35,8 +34,12 @@ const resources = {
             form_note: "Your Note",
             form_submit: "Send",
             send_me: "SEND ME A MESSAGE!",
+            // -------- PersonalPage.js -------- //
             form_valid_1: "This field is required.",
             form_valid_2: "Please enter your e-mail address.",
+            toast_info_message: "Your note is being forwarded.",
+            toast_success_message: "your note has been forwarded to us! Thanks..",
+            toast_error_message: "An error has occurred, try again later.",
         }
     },
     en: {
@@ -58,7 +61,6 @@ const resources = {
             about_text_one: "Merhaba, ben Aytaç. Kırklareli'de doğdum. Uzun süredir İstanbul'da yaşıyorum. Yıldız Teknik Üniversitesi, İnşaat Mühendisliği bölümünden mezun oldum. Uzun süreli meslek kariyerimde, proje yönetimi, proje koordinatörü ve direktör gibi bir çok rolde görev aldım.",
             about_text_two: "Aktif olarak, web yazılım eğitimi alıyorum. Çalışmalarımın bir parçası olarak Workintech eğitim kurumunda 6 aylık bir 'Full Stack Web Developer' eğitimi aldım. Bu zenginleştirici deneyim, yazılım alanında profesyonel bir kariyere yönelik tutkularımı güçlendirdi. Öğrenme tutkumu hayatım boyunca kaybetmemeyi hedefliyorum.",
             // -------- Profile.js -------- //
-            projects: 'Projeler',
             view_site: 'Siteye Git',
             // -------- Footer.js -------- //
             footer_descripton: 'Sıradaki projenizde birlikte çalışalım.',
@@ -72,8 +74,12 @@ const resources = {
             form_note: "Notunuz",
             form_submit: "Gönder!",
             send_me: "BANA MESAJ İLET!",
+            // -------- PersonalPage.js -------- //
             form_valid_1: "Bu alan zorunludur.",
             form_valid_2: "Lütfen mail adresinizi giriniz.",
+            toast_info_message: "Notun iletiliyor.",
+            toast_success_message: "Notunuz bize ulaştı ! Teşekkür ederim.",
+            toast_error_message: "Bir hata oluştu, lütfen daha sonra tekrar dene.",
         }
     }
 }

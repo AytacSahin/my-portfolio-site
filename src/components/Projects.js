@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import { projectsDataEn, projectsDataTr } from '../sources/data/projectsData'
+import { projectsDataEn, projectsDataTr } from '../sources/data/projectsData.js'
 
 const Projects = () => {
 

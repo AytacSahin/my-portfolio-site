@@ -25,7 +25,7 @@ const resources = {
             // -------- Footer.js -------- //
             footer_descripton: 'Lets work together on your next product.',
             personal_blog: 'Personal Blog',
-
+            
             // -------- Footer.js -------- //
             main_page: 'Main Page',
             blog_title: "Developer's Diary",

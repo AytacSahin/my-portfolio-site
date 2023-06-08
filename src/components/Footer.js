@@ -23,7 +23,7 @@ const Footer = () => {
 
           <Link to="top" smooth={true} duration={700}>
             <NavLink to="/personal-blog"         >
-              <a className='ml-5 text-[#0A0A14] dark:text-[#E1E1FF]' href="https://www.google.com/maps">{t("personal_blog")}</a>
+              <span className='ml-5 text-[#0A0A14] dark:text-[#E1E1FF]'>{t("personal_blog")}</span>
             </NavLink>
           </Link>
 

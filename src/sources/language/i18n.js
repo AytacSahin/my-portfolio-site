@@ -23,9 +23,20 @@ const resources = {
             // -------- Profile.js -------- //
             projects: 'Projects',
             view_site: 'View Site',
-            // -------- Profile.js -------- //
+            // -------- Footer.js -------- //
             footer_descripton: 'Lets work together on your next product.',
             personal_blog: 'Personal Blog',
+
+            // -------- Footer.js -------- //
+            main_page: 'Main Page',
+            blog_title: "Developer's Diary",
+            form_name: "Name",
+            form_mail: "Mail Address",
+            form_note: "Your Note",
+            form_submit: "Send",
+            send_me: "SEND ME A MESSAGE!",
+            form_valid_1: "This field is required.",
+            form_valid_2: "Please enter your e-mail address.",
         }
     },
     en: {
@@ -49,9 +60,20 @@ const resources = {
             // -------- Profile.js -------- //
             projects: 'Projeler',
             view_site: 'Siteye Git',
-            // -------- Profile.js -------- //
+            // -------- Footer.js -------- //
             footer_descripton: 'Sıradaki projenizde birlikte çalışalım.',
             personal_blog: 'Kişisel Blog',
+
+            // -------- Footer.js -------- //
+            main_page: 'Ana Sayfa',
+            blog_title: "Yazılımcı'nın Günlüğü",
+            form_name: "İsim",
+            form_mail: "Mail Adresi",
+            form_note: "Notunuz",
+            form_submit: "Gönder!",
+            send_me: "BANA MESAJ İLET!",
+            form_valid_1: "Bu alan zorunludur.",
+            form_valid_2: "Lütfen mail adresinizi giriniz.",
         }
     }
 }

@@ -37,9 +37,9 @@ const resources = {
             // -------- PersonalPage.js -------- //
             form_valid_1: "This field is required.",
             form_valid_2: "Please enter your e-mail address.",
-            toast_info_message: "Your note is being forwarded.",
-            toast_success_message: "your note has been forwarded to us! Thanks..",
-            toast_error_message: "An error has occurred, try again later.",
+            toast_info_message: "⏰ Waiting...",
+            toast_success_message: "🤌 Your note has been forwarded to us! Thanks..",
+            toast_error_message: "⛔ An error has occurred, try again later.",
         }
     },
     en: {
@@ -77,9 +77,9 @@ const resources = {
             // -------- PersonalPage.js -------- //
             form_valid_1: "Bu alan zorunludur.",
             form_valid_2: "Lütfen mail adresinizi giriniz.",
-            toast_info_message: "Notun iletiliyor.",
-            toast_success_message: "Notunuz bize ulaştı ! Teşekkür ederim.",
-            toast_error_message: "Bir hata oluştu, lütfen daha sonra tekrar dene.",
+            toast_info_message: "⏰ Bekleniyor...",
+            toast_success_message: "🤌 Notunuz bize ulaştı ! Teşekkür ederim.",
+            toast_error_message: "⛔ Bir hata oluştu, lütfen daha sonra tekrar dene.",
         }
     }
 }

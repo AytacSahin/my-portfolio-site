@@ -2,9 +2,9 @@ import React from 'react'
 import { useTranslation } from 'react-i18next'
 import { personalPageDataEn, personalPageDataTr } from '../sources/data/personalPageData'
 import { useForm } from 'react-hook-form'
-import PersonalPageHeader from './PersonalPageHeader'
 import { toast } from 'react-toastify'
 import axios from 'axios'
+import PersonalPageHeader from './PersonalPageHeader'
 
 const PersonalPage = () => {
 
@@ -19,23 +19,23 @@ const PersonalPage = () => {
 
     const onSubmit = (formData) => {
         // console.log(formData);
-        toast.info(t("toast_info_message"), { position: toast.POSITION.BOTTOM_RIGHT });
+        toast.info(t("toast_info_message"));
         axios
             .post("https://reqres.in/api/workintech", formData)
             .then((res) => {
                 console.log(res.data);
-                toast.success("Notunuz bize ulaştı !", { position: toast.POSITION.TOP_RIGHT });
+                toast.success(t("toast_success_message"));
                 reset()
             })
             .catch((error) => {
-                toast.warning("Bir Hata Oluştu, Daha Sonra Tekrar Deneyin !", { position: toast.POSITION.BOTTOM_RIGHT });
+                toast.warning(t("toast_error_message"));
                 console.log(error)
             });
     }
 
     return (
         <div>
-            <div className='flex justify-start lg:justify-start md:justify-center sm:justify-center max-[640px]:justify-center max-[320px]:justify-center'>
+            <div id="goingontop" className='flex justify-start lg:justify-start md:justify-center sm:justify-center max-[640px]:justify-center max-[320px]:justify-center'>
                 <PersonalPageHeader />
             </div>
             <div className='flex flex-col items-center w-full'>
@@ -46,7 +46,7 @@ const PersonalPage = () => {
                     .map((item, index) => (
                         <div key={index} className='w-[90%] flex flex-row mb-20 lg:flex-row md:flex-col sm:flex-col max-[640px]:flex-col max-[320px]:flex-col md:items-center sm:items-center max-[640px]:items-center max-[320px]:items-center'>
                             <div className='w-[50%] lg:w-[50%] md:w-[80%] sm-[90%] mt-0 mr-8 lg:mr-8 md:mr-0 sm:mr-0 max-[640px]:mr-0 max-[320px]:mr-0'>
-                                <img src={item.image} className='text-[#1F2937] dark:text-[#AEBCCF]' />
+                                <img src={item.image} className='text-[#1F2937] dark:text-[#AEBCCF]' alt="blog_picture"/>
                             </div>
                             <div className='w-[50%] lg:w-[50%] md:w-[80%] sm:w-[80%] max-[640px]:w-[80%] max-[320px]:w-[80%]'>
                                 <div >

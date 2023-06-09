@@ -9,7 +9,6 @@ const Footer = () => {
 
   return (
     <div>
-
       <div>
         <h2 className='w-[50%] text-[#1F2937] text-5xl leading-none font-semibold dark:text-[#AEBCCF] pt-28 pb-20 <lg:w-[70%] md:w-[80%] sm:w-[90%] max-[640px]:w-[95%] lg:text-4xl sm:text-3xl max-[640px]:text-2xl max-[320px]:text-xl'>{t("footer_descripton")}</h2>
       </div>
@@ -22,7 +21,7 @@ const Footer = () => {
         <div className='text-[18px] leading-[150%] font-medium md:mt-0 sm:mt-5 max-[640px]:mt-5 max-[320px]:mt-5 sm:text-[18px] max-[640px]:text-[14px] max-[320px]:text-[10px]'>
 
           <Link to="top" smooth={true} duration={700}>
-            <NavLink to="/personal-blog"         >
+            <NavLink to="/personal-blog">
               <span className='ml-5 text-[#0A0A14] dark:text-[#E1E1FF]'>{t("personal_blog")}</span>
             </NavLink>
           </Link>

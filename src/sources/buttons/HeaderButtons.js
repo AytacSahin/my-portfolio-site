@@ -20,7 +20,7 @@ const HeaderButtons = () => {
         Github
       </a>
 
-      <a href="https://www.linkedin.com/in/ayta%C3%A7-%C5%9Fahin-686877146/" type="button"
+      <a data-test-id="linkedin" href="https://www.linkedin.com/in/ayta%C3%A7-%C5%9Fahin-686877146/" type="button"
         className="text-[#3730A3] text-lg leading-7 font-medium bg-[#F5F5F5] w-36 h-12 border-2 border-[#3730A3] hover:bg-[#3730A3] hover:text-[#FFFFFF] rounded-md inline-flex items-center dark:bg-[#383838] dark:text-[#E1E1FF] dark:border-[#E1E1FF] dark:hover:bg-[#E1E1FF] dark:hover:text-[#000000] mr-2 mb-2 px-5 py-2.5 ">
         <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 mr-2 -ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" /></svg>
         Linkedin

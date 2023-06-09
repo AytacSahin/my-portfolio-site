@@ -24,7 +24,9 @@ const PersonalPage = () => {
             .post("https://reqres.in/api/workintech", formData)
             .then((res) => {
                 console.log(res.data);
-                toast.success(t("toast_success_message"));
+                setTimeout(() => {
+                    toast.success(t("toast_success_message"));
+                }, 2000);
                 reset()
             })
             .catch((error) => {
@@ -46,7 +48,7 @@ const PersonalPage = () => {
                     .map((item, index) => (
                         <div key={index} className='w-[90%] flex flex-row mb-20 lg:flex-row md:flex-col sm:flex-col max-[640px]:flex-col max-[320px]:flex-col md:items-center sm:items-center max-[640px]:items-center max-[320px]:items-center'>
                             <div className='w-[50%] lg:w-[50%] md:w-[80%] sm-[90%] mt-0 mr-8 lg:mr-8 md:mr-0 sm:mr-0 max-[640px]:mr-0 max-[320px]:mr-0'>
-                                <img src={item.image} className='text-[#1F2937] dark:text-[#AEBCCF]' alt="blog_picture"/>
+                                <img src={item.image} className='text-[#1F2937] dark:text-[#AEBCCF]' alt="blog_picture" />
                             </div>
                             <div className='w-[50%] lg:w-[50%] md:w-[80%] sm:w-[80%] max-[640px]:w-[80%] max-[320px]:w-[80%]'>
                                 <div >

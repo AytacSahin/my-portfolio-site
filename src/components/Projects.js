@@ -16,7 +16,7 @@ const Projects = () => {
 
                         .map((item, index) => (
 
-                            <div key={index} className='w-[20rem] h-[36rem] mx-auto flex flex-col justify-between mb-12 sm:w-[20rem] sm:h-[36rem] max-[640px]:w-[16rem] max-[640px]:h-[40rem]'>
+                            <div key={index} className='w-[20rem] h-[36rem] mx-auto flex flex-col justify-between mb-12 sm:w-[20rem] sm:h-[36rem] max-[640px]:w-[20rem] max-[640px]:h-[40rem]'>
 
                                 <div className='mb-8'>
                                     <img className='w-[20rem] h-[14rem] object-fill' src={item.img} alt="project_picture"></img>

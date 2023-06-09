@@ -15,7 +15,7 @@ import { ToastContainer } from 'react-toastify';
 function App() {
 
   useEffect(() => {
-    toast.success("hoşgeldiniz");
+    toast("hoşgeldiniz");
   }, [])
 
   return (
@@ -26,6 +26,7 @@ function App() {
           <Toggle />
 
           <Switch>
+            
             <Route path="/personal-blog">
               <PersonalPage />
             </Route>

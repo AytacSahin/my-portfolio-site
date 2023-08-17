@@ -1,6 +1,6 @@
 # Web Sayfam Projesi
 
-Bu repository, kişisel web sayfamın kodlarını içermektedir. Bu proje, [Aytac Sahin'in Kişisel Web Sayfası](https://aytac-sahin.vercel.app/) olarak canlı olarak erişilebilir.
+Bu repository, kişisel web sayfamın kodlarını içermektedir. Canlı internet sitesine, [buradan](https://aytac-sahin.vercel.app/) erişilebilirsiniz.
 
 ## Kullanılan Kütüphaneler
 

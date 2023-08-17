@@ -5,3 +5,28 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotate {
+  animation: rotate 4s linear infinite;
+  transform-origin: center center;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,14 +1,24 @@
-import headerImage_1 from '../images/projects/headerImage_1.png'
-import headerImage_2 from '../images/projects/headerImage_2.png'
-import headerImage_3 from '../images/projects/headerImage_3.png'
-import headerImage_4 from '../images/projects/headerImage_4.png'
-import headerImage_5 from '../images/projects/headerImage_5.png'
-import headerImage_6 from '../images/projects/headerImage_6.png'
+import headerImage_01 from '../images/projects/headerImage_01.png'
+import headerImage_02 from '../images/projects/headerImage_02.png'
+import headerImage_03 from '../images/projects/headerImage_03.png'
+import headerImage_04 from '../images/projects/headerImage_04.png'
+import headerImage_05 from '../images/projects/headerImage_05.png'
+import headerImage_06 from '../images/projects/headerImage_06.png'
+import headerImage_07 from '../images/projects/headerImage_07.png'
 
 export const projectsDataEn = [
     {
         id: 0,
-        img: headerImage_1,
+        img: headerImage_01,
+        title: "Twitter Back-End Project",
+        description: "This project is a Node.js application that forms the backend of a Twitter-like social media platform. It includes basic features like user authentication, tweet management and database management.",
+        methodsofproject: ["Node.js", "Bcryptjs", "Redis"],
+        githubLink: "https://github.com/AytacSahin/twitter-backend-project.git",
+        deployLink: "https://aytacsahin-twitter-backend.onrender.com/"
+    },
+    {
+        id: 1,
+        img: headerImage_02,
         title: "To Do List Project",
         description: "This project, which I realized during my education period, is the 'To Do List'. In the UI, a to-do box can be added, a new note can be added, a to-do list can be specified, and a new contact can be added. At the same time, after the task is added, the completion process of the task is also reflected in the UI.",
         methodsofproject: ["useForm", "Toastify", "DateFNS"],
@@ -16,8 +26,8 @@ export const projectsDataEn = [
         deployLink: "https://todo-list-git-main-aytacsahin.vercel.app/"
     },
     {
-        id: 1,
-        img: headerImage_2,
+        id: 2,
+        img: headerImage_03,
         title: "Basic Calculator",
         description: "A simple calculator interface. In this first calculator project, which is open to developments, simple mathematical operations can be done, as well as storing and deleting from memory.",
         methodsofproject: ["useReducer", "custom hooks"],
@@ -25,8 +35,8 @@ export const projectsDataEn = [
         deployLink: "https://fsweb-s10g1-reducer-calculator-weld.vercel.app/"
     },
     {
-        id: 2,
-        img: headerImage_3,
+        id: 3,
+        img: headerImage_04,
         title: "Movie List",
         description: "In this project, which includes many films, the score of the films, the director, the actors, etc. You can read the features and add the movies you want to your favorite list. You can also switch between movies.",
         methodsofproject: ["Redux", "UseSelector", "useDispatch"],
@@ -34,8 +44,8 @@ export const projectsDataEn = [
         deployLink: "https://watchlist-movies-kappa.vercel.app/"
     },
     {
-        id: 3,
-        img: headerImage_4,
+        id: 4,
+        img: headerImage_05,
         title: "Random Jokes",
         description: "Enjoy the jokes! This site contains many jokes about software. Just click on it to see the answer. At the same time, you can save the jokes you like and view them when you re-enter the site in the future.",
         methodsofproject: ["Redux", "Thunk", "Middleware"],
@@ -43,8 +53,8 @@ export const projectsDataEn = [
         deployLink: "https://random-jokes-olive.vercel.app/"
     },
     {
-        id: 4,
-        img: headerImage_5,
+        id: 5,
+        img: headerImage_06,
         title: "Gratitude Journal",
         description: "Gratitude diary is perhaps one of the only interfaces we need! Do you want to try ? You can add a new gratitude note, delete it, and view the notes you saved in the future. I wish you many grateful days!",
         methodsofproject: ["Redux", "LocalStorage", "Nanoid"],
@@ -52,8 +62,8 @@ export const projectsDataEn = [
         deployLink: "https://gratitude-journal-three.vercel.app/"
     },
     {
-        id: 5,
-        img: headerImage_6,
+        id: 6,
+        img: headerImage_07,
         title: "Book Shopping Card",
         description: "Do you like books? Select the book you want from the list and add it to your cart. Add lots of books, it doesn't matter. Happy shopping...",
         methodsofproject: ["React", "Context API"],
@@ -66,7 +76,16 @@ export const projectsDataTr =
     [
         {
             id: 0,
-            img: headerImage_1,
+            img: headerImage_01,
+            title: "Twitter Back-End Projesi",
+            description: "Bu proje, Twitter benzeri bir sosyal medya platformunun backend kısmını oluşturan bir Node.js uygulamasıdır. Kullanıcı kimlik doğrulama, tweet yönetimi ve veritabanı yönetimi gibi temel özellikleri içermektedir.",
+            methodsofproject: ["Node.js", "Bcryptjs", "Redis"],
+            githubLink: "https://github.com/AytacSahin/twitter-backend-project.git",
+            deployLink: "https://aytacsahin-twitter-backend.onrender.com/"
+        },
+        {
+            id: 1,
+            img: headerImage_02,
             title: "Yapılacaklar Listesi",
             description: "Öğrenim sürecinde gerçekleştirdiğim bu proje, 'Yapılacaklar Listesi'. Kullanıcı arayüzünde yapılacaklar muhafazası yeni bir not eklenebilir, kimlerin yapacağı belirtilebilir ve yeni kişi eklenebilir. Aynı zamanda görev eklendikten sonra, görevin tamamlanma süreci de UI'da yansıtılmaktadır.",
             methodsofproject: ["useForm", "Toastify", "DateFNS"],
@@ -74,8 +93,8 @@ export const projectsDataTr =
             deployLink: "https://todo-list-git-main-aytacsahin.vercel.app/"
         },
         {
-            id: 1,
-            img: headerImage_2,
+            id: 2,
+            img: headerImage_03,
             title: "Başlangıç Hesap Makinesi",
             description: "Basit bir hesap makinesi arayüzü. Geliştirmelere açık bu ilk hesap makinesi projemde basit matematik işlemleri yapılabilir, ayrıca hafızaya alma, hafızadan silme işlemleri de yapılabilmektedir.",
             methodsofproject: ["useReducer", "custom hooks"],
@@ -83,8 +102,8 @@ export const projectsDataTr =
             deployLink: "https://fsweb-s10g1-reducer-calculator-weld.vercel.app/"
         },
         {
-            id: 2,
-            img: headerImage_3,
+            id: 3,
+            img: headerImage_04,
             title: "Film Listesi",
             description: "Bir çok film içeren bu projede, filmlere ait puan, yönetmen, oyuncular vb. özellikleri okuyabilir, dilediğiniz filmleri kendi favori listenize ekleyebilirsiniz. Ayrıca filmler arasında geçiş yapabilirsiniz.",
             methodsofproject: ["Redux", "UseSelector", "useDispatch"],
@@ -92,8 +111,8 @@ export const projectsDataTr =
             deployLink: "https://watchlist-movies-kappa.vercel.app/"
         },
         {
-            id: 3,
-            img: headerImage_4,
+            id: 4,
+            img: headerImage_05,
             title: "Rastgele Şakalar",
             description: "Şakalardan şaka beğen! Bu site yazılım üzerine bir çok şaka içermektedir. Cevabı görmeniz için üzerine tıklamanız yeterli. Aynı zamanda beğendiğiniz şakaları kaydedebilir, ileride siteye tekrar girdiğinizde bunları görüntüleyebilirsiniz.",
             methodsofproject: ["Redux", "Thunk", "Middleware"],
@@ -101,8 +120,8 @@ export const projectsDataTr =
             deployLink: "https://random-jokes-olive.vercel.app/"
         },
         {
-            id: 4,
-            img: headerImage_5,
+            id: 5,
+            img: headerImage_06,
             title: "Minnet Günlüğü",
             description: "Minnet günlüğü belki de ihtiyacımız olan yegane arayüzlerden birisi ! Denemek ister misin ? Yeni bir minnet notu ekleyebilir, silebilir, ileride kaydettiğin notları yine görüntüleyebilirsin. Bol minnetli günler dilerim !",
             methodsofproject: ["Redux", "LocalStorage", "Nanoid"],
@@ -110,13 +129,14 @@ export const projectsDataTr =
             deployLink: "https://gratitude-journal-three.vercel.app/"
         },
         {
-            id: 5,
-            img: headerImage_6,
+            id: 6,
+            img: headerImage_07,
             title: "Kitap Alışveriş Sitesi",
             description: "Kitap okumayı sever misin ? Listede dilediğin kitabı seç ve sepetine ekle. Bol bol kitap seçebilirsin, hiç önemli değil. Mutlu alışverişler...",
             methodsofproject: ["React", "Context API"],
             githubLink: "https://github.com/AytacSahin/fsweb-s11g1-shopping-cart.git",
             deployLink: "https://shopping-cart-git-main-aytacsahin.vercel.app/"
         },
+
     ]
 

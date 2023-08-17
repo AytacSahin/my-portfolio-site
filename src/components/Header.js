@@ -20,7 +20,7 @@ const Header = () => {
             </div>
           </div>
           <div>
-            <h4 className='text-[#4338CA] text-xl leading-7 font-medium pl-4 dark:text-[#B7AAFF] sm:pl-4 max-[640px]:pl-0'>{t('aytac_sahin')}</h4>
+            <h4 className='animate-typing overflow-hidden whitespace-nowrap border-r-4 pr-5 text-[#4338CA] text-xl leading-7 font-medium pl-4 dark:text-[#B7AAFF] sm:pl-4 max-[640px]:pl-0'>{t('aytac_sahin')}</h4>
           </div>
         </div>
 

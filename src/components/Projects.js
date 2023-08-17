@@ -19,7 +19,7 @@ const Projects = () => {
                             <div key={index} className='w-[20rem] h-[36rem] mx-auto flex flex-col justify-between mb-12 sm:w-[20rem] sm:h-[36rem] max-[640px]:w-[20rem] max-[640px]:h-[40rem]'>
 
                                 <div className='mb-8'>
-                                    <img className='w-[20rem] h-[14rem] object-fill' src={item.img} alt="project_picture"></img>
+                                    <img className='w-[20rem] h-[14rem] object-fill hover:opacity-70' src={item.img} alt="project_picture"></img>
                                     <h3 className='text-[#4338CA] text-3xl leading-7 font-medium mt-8 dark:text-[#B7AAFF] mb-6'>{item.title}</h3>
                                     <h4 className='text-[#6B7280] text-sm leading-tight font-normal dark:text-[#FFFFFF]'>{item.description}</h4>
                                 </div>

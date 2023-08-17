@@ -10,7 +10,7 @@ const Skills = () => {
         <div className='text-left'>
             <div>
                 <h2 className='text-[#1F2937] text-5xl leading-none font-semibold dark:text-[#AEBCCF]'>{t("skills")}</h2>
-                <div className='flex justify-between md:flex-row sm:flex-col max-[640px]:flex-col max-[320px]:flex-col'>
+                <div className='flex justify-between flex-wrap md:flex-row sm:flex-col max-[640px]:flex-col max-[320px]:flex-col'>
 
                     { (i18n.language === "tr" ? skillsDataEN : skillsDataTR)
                     .map((item, index) => (

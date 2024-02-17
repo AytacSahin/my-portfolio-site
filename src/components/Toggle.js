@@ -7,15 +7,12 @@ const UserPreferences = () => {
   // console.log(i18n.language)
 
   const [theme, setTheme] = useState(() => {
-    if (localStorage.getItem("theme") === "light") {
-      return "light";
-    } else if (localStorage.getItem("theme") === "dark") {
-      return "dark";
-    }
+    const storedTheme = localStorage.getItem("theme");
+    return storedTheme === "light" ? "light" : "dark";
   });
 
   const changeTheme = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
+    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
   }
 
   useEffect(() => {
@@ -35,7 +32,7 @@ const UserPreferences = () => {
     i18n.changeLanguage(language);
   }
 
-  useEffect(() => { localStorage.setItem("language", i18n.language ==="tr" ? "en" : "tr") }, [i18n.language])
+  useEffect(() => { localStorage.setItem("language", i18n.language === "tr" ? "en" : "tr") }, [i18n.language])
 
 
   return (

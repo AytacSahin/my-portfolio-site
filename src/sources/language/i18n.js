@@ -18,7 +18,7 @@ const resources = {
             // -------- Profile.js -------- //
             profile: 'Profile',
             about_header: 'About Me',
-            about_text_one: "Hello, I'm Aytac. I was born in Kirklareli. I have been living in Istanbul for a long time. I graduated from Yildiz Technical University, Department of Civil Engineering. In my long professional career, I took part in many roles such as project management, project coordinator and director.",
+            about_text_one: "Hello, I'm Aytac. I was born in Kirklareli. I have been living in Istanbul for a long time. I graduated from Yildiz Technical University. In my long professional career, I took part in many roles such as project management, project coordinator and director.",
             about_text_two: "I am actively studying web software. As part of my studies, I received a 6-month 'Full Stack Web Developer' training at the Workintech educational institution. This enriching experience has fueled my passion for a professional career in software. I aim not to lose my passion for learning throughout my life.",
             // -------- Profile.js -------- //
             view_site: 'View Site',
@@ -58,7 +58,7 @@ const resources = {
             // -------- Profile.js -------- //
             profile: 'Profil',
             about_header: 'Hakkımda',
-            about_text_one: "Merhaba, ben Aytaç. Kırklareli'de doğdum. Uzun süredir İstanbul'da yaşıyorum. Yıldız Teknik Üniversitesi, İnşaat Mühendisliği bölümünden mezun oldum. Uzun süreli meslek kariyerimde, proje yönetimi, proje koordinatörü ve direktör gibi bir çok rolde görev aldım.",
+            about_text_one: "Merhaba, ben Aytaç. Kırklareli'de doğdum. Uzun süredir İstanbul'da yaşıyorum. Yıldız Teknik Üniversitesi'nden mezun oldum. Uzun süreli meslek kariyerimde, proje yönetimi, proje koordinatörü ve direktör gibi bir çok rolde görev aldım.",
             about_text_two: "Aktif olarak, web yazılım eğitimi alıyorum. Çalışmalarımın bir parçası olarak Workintech eğitim kurumunda 6 aylık bir 'Full Stack Web Developer' eğitimi aldım. Bu zenginleştirici deneyim, yazılım alanında profesyonel bir kariyere yönelik tutkularımı güçlendirdi. Öğrenme tutkumu hayatım boyunca kaybetmemeyi hedefliyorum.",
             // -------- Profile.js -------- //
             view_site: 'Siteye Git',

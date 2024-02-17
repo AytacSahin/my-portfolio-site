@@ -28,11 +28,11 @@ export const projectsDataEn = [
     {
         id: 2,
         img: headerImage_03,
-        title: "Basic Calculator",
-        description: "A simple calculator interface. In this first calculator project, which is open to developments, simple mathematical operations can be done, as well as storing and deleting from memory.",
-        methodsofproject: ["useReducer", "custom hooks"],
-        githubLink: "https://github.com/AytacSahin/fsweb-s10g1-reducer-calculator.git",
-        deployLink: "https://fsweb-s10g1-reducer-calculator-weld.vercel.app/"
+        title: "Countries Information Portal",
+        description: "Countries Information Portal is a platform that aims to query and display detailed information about various countries around the world using GraphQL technology. The application allows its users to filter, group and select countries, so users can access specific information about the countries they want. Additionally, users can access detailed information about countries' geographical locations, language information, telephone codes and much more.",
+        methodsofproject: ["TypeScript", "React", "@apollo/client"],
+        githubLink: "https://github.com/AytacSahin/countriesapp",
+        deployLink: "https://countriesapp-chi.vercel.app/"
     },
     {
         id: 3,
@@ -95,11 +95,11 @@ export const projectsDataTr =
         {
             id: 2,
             img: headerImage_03,
-            title: "Başlangıç Hesap Makinesi",
-            description: "Basit bir hesap makinesi arayüzü. Geliştirmelere açık bu ilk hesap makinesi projemde basit matematik işlemleri yapılabilir, ayrıca hafızaya alma, hafızadan silme işlemleri de yapılabilmektedir.",
-            methodsofproject: ["useReducer", "custom hooks"],
-            githubLink: "https://github.com/AytacSahin/fsweb-s10g1-reducer-calculator.git",
-            deployLink: "https://fsweb-s10g1-reducer-calculator-weld.vercel.app/"
+            title: "Ülkeler Bilgi Portalı",
+            description: "Ülkeler Bilgi Portalı, GraphQL teknolojisini kullanarak dünya genelindeki çeşitli ülkeler hakkında detaylı bilgi sorgulama ve gösterme amacı taşıyan bir platformdur. Uygulama, kullanıcılarına ülkeleri filtreleme, gruplama ve seçme imkanı sunar, böylece kullanıcılar istedikleri ülkelerle ilgili spesifik bilgilere ulaşabilirler. Ayrıca, kullanıcılar ülkelerin coğrafi konumları, dil bilgileri, telefon kodları ve daha birçok detaylı bilgiye erişebilirler.",
+            methodsofproject: ["TypeScript", "React", "@apollo/client"],
+            githubLink: "https://github.com/AytacSahin/countriesapp",
+            deployLink: "https://countriesapp-chi.vercel.app/"
         },
         {
             id: 3,

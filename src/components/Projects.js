@@ -35,7 +35,7 @@ const Projects = () => {
                                     </div>
 
                                     <div className='flex justify-between mb-4 underline text-[#3730A3] dark:text-[#E1E1FF]'>
-                                        <a href={item.githubLink}>Github</a>
+                                        {item.githubLink !== "" ? (<a href={item.githubLink}>Github</a>) : null}
                                         <a href={item.deployLink}>{t("view_site")}</a>
                                     </div>
                                 </div>

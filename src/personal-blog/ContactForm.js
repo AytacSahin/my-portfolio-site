@@ -26,10 +26,6 @@ const ContactForm = () => {
 
         if (validateForm()) {
 
-            // const serviceId = 'service_vxw0ter';
-            // const templateId = 'template_f7l6rzo';
-            // const publicKey = '99fZJVdXOv7gk8eKt';
-
             const serviceId = process.env.REACT_APP_SERVICE_ID;
             const templateId = process.env.REACT_APP_TEMPLATE_ID;
             const publicKey = process.env.REACT_APP_PUBLIC_KEY;

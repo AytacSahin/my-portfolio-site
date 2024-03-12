@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-scroll'
+import { Link as Linked } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 
 const NavLinkBar = () => {
 
   const { t } = useTranslation()
 
-    return (
+  return (
     <div className='flex justify-between items-center md:flex-row sm:flex-col sm:item-center max-[640px]:flex-col max-[640px]:items-center'>
 
       <div>
@@ -17,21 +18,21 @@ const NavLinkBar = () => {
 
         <Link to="skilssLink" smooth={true} duration={700}>
           <button type="button" className='text-lg leading-7 font-medium w-36 h-12 border-2 border-[#F9F9F9] rounded-md text-[#6B7280] hover:border-[#3730A3] hover:text-[#3730A3] dark:border-[#252128] dark:hover:bg-[#FFFFFF] dark:hover:border-[#3730A3]'>
-          {t('skills')}
+            {t('skills')}
           </button>
         </Link>
 
         <Link to="projectLink" smooth={true} duration={700}>
           <button type="button" className='text-lg leading-7 font-medium w-36 h-12 border-2 border-[#F9F9F9] rounded-md text-[#6B7280] hover:border-[#3730A3] hover:text-[#3730A3] dark:border-[#252128] dark:hover:bg-[#FFFFFF] dark:hover:border-[#3730A3]'>
-          {t('projects')}
+            {t('projects')}
           </button>
         </Link>
 
-        <a href="mailto:haytacsahin@gmail.com">
-          <button href="mailto:haytacsahin@gmail.com" className='text-lg leading-7 font-medium w-36 h-12 border-2 border-[#F9F9F9] rounded-md text-[#6B7280] hover:border-[#3730A3] hover:text-[#3730A3] dark:border-[#252128] dark:hover:bg-[#FFFFFF] dark:hover:border-[#3730A3]'>
-          {t('contact')}
+        <Linked to="/contact" smooth={true} duration={700}>
+          <button type="button" className='text-lg leading-7 font-medium w-36 h-12 border-2 border-[#F9F9F9] rounded-md text-[#6B7280] hover:border-[#3730A3] hover:text-[#3730A3] dark:border-[#252128] dark:hover:bg-[#FFFFFF] dark:hover:border-[#3730A3]'>
+            {t('contact')}
           </button>
-        </a>
+        </Linked>
 
       </div>
 

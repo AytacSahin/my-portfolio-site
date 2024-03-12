@@ -21,7 +21,7 @@ export const projectsDataEn = [
         id: 1,
         img: headerImage_03,
         title: "Countries Information Portal",
-        description: "Countries Information Portal is a platform that aims to query and display detailed information about various countries around the world using GraphQL technology. The application allows its users to filter, group and select countries, so users can access specific information about the countries they want. Additionally, users can access detailed information about countries' geographical locations, language information, telephone codes and much more.",
+        description: "Countries Information Portal is a platform that aims to query and display detailed information about various countries around the world using GraphQL technology. The application allows its users to filter, group and select countries, so users can access specific information about the countries they want.",
         methodsofproject: ["TypeScript", "React", "@apollo/client"],
         githubLink: "https://github.com/AytacSahin/countriesapp",
         deployLink: "https://countriesapp-chi.vercel.app/"
@@ -97,7 +97,7 @@ export const projectsDataTr =
             id: 1,
             img: headerImage_03,
             title: "Ülkeler Bilgi Portalı",
-            description: "Ülkeler Bilgi Portalı, GraphQL teknolojisini kullanarak dünya genelindeki çeşitli ülkeler hakkında detaylı bilgi sorgulama ve gösterme amacı taşıyan bir platformdur. Uygulama, kullanıcılarına ülkeleri filtreleme, gruplama ve seçme imkanı sunar, böylece kullanıcılar istedikleri ülkelerle ilgili spesifik bilgilere ulaşabilirler. Ayrıca, kullanıcılar ülkelerin coğrafi konumları, dil bilgileri, telefon kodları ve daha birçok detaylı bilgiye erişebilirler.",
+            description: "Ülkeler Bilgi Portalı, GraphQL teknolojisini kullanarak dünya genelindeki çeşitli ülkeler hakkında detaylı bilgi sorgulama ve gösterme amacı taşıyan bir platformdur. Uygulama, kullanıcılarına ülkeleri filtreleme, gruplama ve seçme imkanı sunar, böylece kullanıcılar istedikleri ülkelerle ilgili spesifik bilgilere ulaşabilirler.",
             methodsofproject: ["TypeScript", "React", "@apollo/client"],
             githubLink: "https://github.com/AytacSahin/countriesapp",
             deployLink: "https://countriesapp-chi.vercel.app/"

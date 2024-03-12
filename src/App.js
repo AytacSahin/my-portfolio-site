@@ -8,15 +8,10 @@ import Footer from './components/Footer';
 
 import { Switch, Route } from "react-router-dom";
 import PersonalPage from './personal-blog/PersonalPage';
-import { useEffect } from 'react';
-import { toast } from 'react-toastify';
 import { ToastContainer } from 'react-toastify';
+import ContactForm from './personal-blog/ContactForm';
 
 function App() {
-
-  useEffect(() => {
-    toast("hoşgeldiniz");
-  }, [])
 
   return (
     <div>
@@ -26,9 +21,13 @@ function App() {
           <Toggle />
 
           <Switch>
-            
+
             <Route path="/personal-blog">
               <PersonalPage />
+            </Route>
+
+            <Route path="/contact">
+              <ContactForm />
             </Route>
 
             <Route exact path="/">
@@ -53,7 +52,7 @@ function App() {
       </div>
       <ToastContainer
         position="top-left"
-        autoClose="3000"
+        autoClose="1000"
         closeOnClick="true"
         pauseOnHover="true"
         draggable="true"

@@ -18,14 +18,14 @@ const resources = {
             // -------- Profile.js -------- //
             profile: 'Profile',
             about_header: 'About Me',
-            about_text_one: "Hello, I'm Aytac. I was born in Kirklareli. I have been living in Istanbul for a long time. I graduated from Yildiz Technical University. In my long professional career, I took part in many roles such as project management, project coordinator and director.",
-            about_text_two: "I am actively studying web software. As part of my studies, I received a 6-month 'Full Stack Web Developer' training at the Workintech educational institution. This enriching experience has fueled my passion for a professional career in software. I aim not to lose my passion for learning throughout my life.",
+            about_text_one: "Hello, I'm Aytac. I was born on 03.07.1991 in Kırklareli and I am currently a software developer living in Istanbul. After graduating from Yıldız Technical University in 2013, I worked in various roles such as project management, coordinator and director for a long time. Last year, I strengthened my software skills by taking 'Full Stack Web Developer' training at Workintech educational institution.",
+            about_text_two: "This experience shaped my professional career goals. I am currently working in a software company and increasing my knowledge with the experiences I have gained. I am determined to continue my passion for learning and I constantly improve myself by following the developments in the software world.",
             // -------- Profile.js -------- //
             view_site: 'View Site',
             // -------- Footer.js -------- //
             footer_descripton: 'Lets work together on your next product.',
             personal_blog: 'Personal Blog',
-            
+
             // -------- Footer.js -------- //
             main_page: 'Main Page',
             blog_title: "Developer's Diary",
@@ -33,7 +33,6 @@ const resources = {
             form_mail: "Mail Address",
             form_note: "Your Note",
             form_submit: "Send",
-            send_me: "SEND ME A MESSAGE!",
             // -------- PersonalPage.js -------- //
             form_valid_1: "This field is required.",
             form_valid_2: "Please enter your e-mail address.",
@@ -58,8 +57,8 @@ const resources = {
             // -------- Profile.js -------- //
             profile: 'Profil',
             about_header: 'Hakkımda',
-            about_text_one: "Merhaba, ben Aytaç. Kırklareli'de doğdum. Uzun süredir İstanbul'da yaşıyorum. Yıldız Teknik Üniversitesi'nden mezun oldum. Uzun süreli meslek kariyerimde, proje yönetimi, proje koordinatörü ve direktör gibi bir çok rolde görev aldım.",
-            about_text_two: "Aktif olarak, web yazılım eğitimi alıyorum. Çalışmalarımın bir parçası olarak Workintech eğitim kurumunda 6 aylık bir 'Full Stack Web Developer' eğitimi aldım. Bu zenginleştirici deneyim, yazılım alanında profesyonel bir kariyere yönelik tutkularımı güçlendirdi. Öğrenme tutkumu hayatım boyunca kaybetmemeyi hedefliyorum.",
+            about_text_one: "Merhaba ben Aytaç. 03.07.1991 Kırklareli doğumluyum ve şu anda İstanbul'da yaşayan bir yazılımcıyım. 2013 yılında Yıldız Teknik Üniversitesi'nden mezun olduktan sonra uzun süre proje yönetimi, koordinatör, direktör gibi çeşitli rollerde çalıştım. Geçtiğimiz yıl Workintech eğitim kurumunda 'Full Stack Web Developer' eğitimi alarak yazılım becerilerimi güçlendirdim. ",
+            about_text_two: "Bu deneyim mesleki kariyer hedeflerimi şekillendirdi. Şu anda bir yazılım firmasında çalışmaktayım ve edindiğim tecrübelerle bilgilerimi arttırıyorum. Öğrenme tutkumu sürdürmeye kararlıyım ve yazılım dünyasındaki gelişmeleri takip ederek kendimi sürekli geliştiriyorum.",
             // -------- Profile.js -------- //
             view_site: 'Siteye Git',
             // -------- Footer.js -------- //
@@ -73,7 +72,6 @@ const resources = {
             form_mail: "Mail Adresi",
             form_note: "Notunuz",
             form_submit: "Gönder!",
-            send_me: "BANA MESAJ İLET!",
             // -------- PersonalPage.js -------- //
             form_valid_1: "Bu alan zorunludur.",
             form_valid_2: "Lütfen mail adresinizi giriniz.",
